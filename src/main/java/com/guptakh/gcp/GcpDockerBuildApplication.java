@@ -11,7 +11,7 @@ public class GcpDockerBuildApplication {
 	public static void main(String[] args) {
 		SpringApplication application = new SpringApplicationBuilder()
 				.sources(GcpDockerBuildApplication.class)
-				.web(WebApplicationType.NONE)
+				//.web(WebApplicationType.NONE)
 				.build();
 
 		ConfigurableApplicationContext applicationContext = application.run(args);
